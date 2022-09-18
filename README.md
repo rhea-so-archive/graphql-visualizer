@@ -16,7 +16,7 @@ This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/grap
 
 ## Quick Start
 
-1. Open [this URL](https://rhea-so-lab.github.io/graphql-voyager-web)
+1. Open [this URL](https://rhea-so-lab.github.io/graphql-voyager-web-standalone)
 2. Input your graphql server address
 
 ![test image](./images/test-image-2.png)
@@ -25,7 +25,7 @@ This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/grap
 
 ![test image](./images/test-image-1.png)
 
-> [Example](https://rhea-so-lab.github.io/graphql-voyager-web/?url=https://dokku-nestjs-boilerplate.rhea.n-e.kr/graphql)
+> [Example](https://rhea-so-lab.github.io/graphql-voyager-web-standalone/?url=https://dokku-nestjs-boilerplate.rhea.n-e.kr/graphql)
 
 
 ## Question
