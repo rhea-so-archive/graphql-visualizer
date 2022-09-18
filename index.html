@@ -80,7 +80,7 @@
       function introspectionProvider(introspectionQuery) {
         const address = findGetParameter('url');
         if (!address) {
-           window.location = `/?url=${prompt('Input your graphql server address\n(Example: https://localhost:8080/graphql)')}`;
+           window.location = `https://rhea-so-lab.github.io/graphql-voyager-web-standalone/?url=${prompt('Input your graphql server address\n(Example: https://localhost:8080/graphql)')}`;
         }
 
         return fetch(address, {
