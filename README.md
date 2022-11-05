@@ -6,9 +6,10 @@
   width="200" />
 
 <!-- Badges -->
-[![CI](https://github.com/rhea-so-lab/graphql-voyager-web-standalone/actions/workflows/deploy.yml/badge.svg)](https://github.com/rhea-so-lab/graphql-voyager-web-standalone/actions/workflows/deploy.yml)
-![Project Contributors](https://img.shields.io/github/contributors/rhea-so-lab/graphql-voyager-web-standalone)
-![Project License](https://img.shields.io/github/license/rhea-so-lab/graphql-voyager-web-standalone)
+
+[![CI](https://github.com/rhea-so-lab/graphql-schema-visualizer/actions/workflows/deploy.yml/badge.svg)](https://github.com/rhea-so-lab/graphql-schema-visualizer/actions/workflows/deploy.yml)
+![Project Contributors](https://img.shields.io/github/contributors/rhea-so-lab/graphql-schema-visualizer)
+![Project License](https://img.shields.io/github/license/rhea-so-lab/graphql-schema-visualizer)
 
 This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/graphql-voyager) standalone on the web without server setup.
 
@@ -16,7 +17,7 @@ This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/grap
 
 ## Quick Start
 
-1. Open [this URL](https://rhea-so-lab.github.io/graphql-voyager-web-standalone)
+1. Open [this URL](https://rhea-so-lab.github.io/graphql-schema-visualizer)
 2. Input your graphql server address
 
 ![test image](./images/test-image-2.png)
@@ -25,8 +26,7 @@ This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/grap
 
 ![test image](./images/test-image-1.png)
 
-> [Example](https://rhea-so-lab.github.io/graphql-voyager-web-standalone/?url=https://dokku-nestjs-boilerplate.rhea.n-e.kr/graphql)
-
+> [Example](https://rhea-so-lab.github.io/graphql-schema-visualizer/?url=https://swapi-graphql.netlify.app/.netlify/functions/index)
 
 ## Question
 
