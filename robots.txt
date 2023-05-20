@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://graphql-visualizer.rhea-so.link/sitemap.xml
