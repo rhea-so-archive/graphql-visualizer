@@ -39,12 +39,12 @@
     <meta
       itemprop="image"
       property="og:url"
-      content="https://rhea-so-lab.github.io/graphql-schema-visualizer/"
+      content="https://graphql-visualizer.rhea-so.link/"
     />
     <meta
       itemprop="image"
       property="og:image"
-      content="https://rhea-so-lab.github.io/graphql-schema-visualizer/images/cover-image.png"
+      content="https://graphql-visualizer.rhea-so.link/images/cover-image.png"
     />
     <meta name="theme-color" content="#ffffff" />
     <style>
@@ -58,10 +58,10 @@
         height: 100vh;
       }
     </style>
-    <script src="https://rhea-so-lab.github.io/graphql-schema-visualizer/libs/react.min.js"></script>
-    <script src="https://rhea-so-lab.github.io/graphql-schema-visualizer/libs/react-dom.min.js"></script>
-    <link rel="stylesheet" href="https://rhea-so-lab.github.io/graphql-schema-visualizer/libs/voyager.css"/>
-    <script src="https://rhea-so-lab.github.io/graphql-schema-visualizer/libs/voyager.min.js"></script>
+    <script src="https://graphql-visualizer.rhea-so.link/libs/react.min.js"></script>
+    <script src="https://graphql-visualizer.rhea-so.link/libs/react-dom.min.js"></script>
+    <link rel="stylesheet" href="https://graphql-visualizer.rhea-so.link/libs/voyager.css"/>
+    <script src="https://graphql-visualizer.rhea-so.link/libs/voyager.min.js"></script>
   </head>
   <body>
     <div id="voyager">Loading...</div>
@@ -79,7 +79,7 @@
       function introspectionProvider(introspectionQuery) {
         const address = findGetParameter('url');
         if (!address || address == 'null') {
-           window.location = `https://rhea-so-lab.github.io/graphql-schema-visualizer/?url=${prompt('Input your graphql server address\n(Example: https://localhost:8080/graphql)')}`;
+           window.location = `https://graphql-visualizer.rhea-so.link/?url=${prompt('Input your graphql server address\n(Example: https://localhost:8080/graphql)')}`;
         }
 
         return fetch(address, {
