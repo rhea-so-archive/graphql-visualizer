@@ -78,7 +78,7 @@
       function introspectionProvider(introspectionQuery) {
         const address = findGetParameter('url');
         if (!address || address == 'null') {
-           window.location = `https://graphql-visualizer.rhea-so.link/?url=${prompt('Input your graphql server address\n(Example: https://localhost:8080/graphql)')}`;
+           window.location = `https://graphql-visualizer.rhea-so.link/?url=${prompt('Input your graphql server address\n(Example: http://localhost:8080/graphql)')}`;
         }
 
         return fetch(address, {
