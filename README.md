@@ -1,8 +1,10 @@
-# GraphQL Visualizer
+<h1 align="center">
+  GraphQL Visualizer
+</h1>
 
 ![GraphQL Visualizer Using Image](./images/cover-image.png)
 
-This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/graphql-voyager) standalone on the web without server setup.
+> This is a project to run [graphql-voyager](https://github.com/IvanGoncharov/graphql-voyager) standalone on the web without server setup.
 
 ## Quick Start
 
